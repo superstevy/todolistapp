@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background-color: greenyellow;
+  margin: auto;
+  padding: 10px;
+}
+
+.App div .row {
+  display: flex;
+  margin: auto;
+  padding: 10px 100px 1px 10px;
+  justify-content: space-around;
+}
+
+.App div .row h1 {
+  margin: 10px auto 30px;
+  border: blue solid 1px;
+  width: 100%;
+  color: tomato;
+  background-color: cyan;
+}
+
+.App div .row .col.form-control {
+  margin: 10px;
+  color: blueviolet;
+  font-size: 20px;
+}
+
+.App div .row .id {
+  display: inline;
+  width: fit-content;
+}
+
+.App div .row button {
+  width: fit-content;
+}
