@@ -1,8 +1,7 @@
 from django.shortcuts import render
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets, permissions
-from backend.todolistapp.serializers import UserSerializer, GroupSerializer
-
+from backend.backend.todolistapp.serializers import UserSerializer, GroupSerializer
 
 class UserViewSet(viewsets.ModelViewSet):
     """
